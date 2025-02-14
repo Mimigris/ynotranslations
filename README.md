@@ -1,5 +1,11 @@
-# ynotranslations
-Repository to host translations for the games present on [YNOproject](https://ynoproject.net).
+[![YNO](https://ynoproject.net/images/logo_yno.png)](https://ynoproject.net/)
+
+[YumeWiki](https://yume.wiki) |
+[Tumblr](https://tumblr.com/ynoproject) |
+[Twitter](https://twitter.com/ynoproject) |
+[Discord](https://ynoproject.net/discord)
+
+### This repository is to host translations exclusively for the current version of games present on [YNOproject](https://ynoproject.net).
 
 ## Installation Instructions
 These instructions will allow you to use these translations offline.
@@ -8,6 +14,7 @@ These instructions will allow you to use these translations offline.
 * Download and install the [EasyRPG Player](https://easyrpg.org/player/downloads/) (make sure to use the version 0.8.0 or more recent, this info should be displayed on startup)
 * Download the content of the repository (on the main page of the repository, `Code` -> `Download ZIP`)
 * Download one of the games compatible with the translations available (Yume Nikki requires the [English Steam version](https://store.steampowered.com/app/650700/Yume_Nikki/), Amillusion requires the [latest English version](https://ynfg.yume.wiki/Amillusion#Download) and Dream Genie requires the [latest English version](https://ynfg.yume.wiki/Dream_Genie_(梦鬼)#Original), all the other games require to use the latest version released by their author(s) in their original language)
+* N.B: The current version of Oneshot used on YNO is presently unavailable for public download
 
 ### Process
 1. Unzip the content of the ynotranslations zip
@@ -17,6 +24,10 @@ These instructions will allow you to use these translations offline.
 5. Once on the title screen, you should have an option to change the language of the game
 
 If you want to use a translation for the game Braingirl, you will need to pass the argument `--language {LANGUAGE}` to the executable (where `{LANGUAGE}` is the name of the folder of the translation wanted), which will launch the game directly in the selected language without having to use the language menu. Note that using this argument to start a game without a `Language` folder will force the Player to close, so make sure to not use it in said case.
+
+## Translations Instructions
+
+As of now, please see [EasyRPG's translation instructions](https://easyrpg.org/player/guide/game_translation) and [Poedit](https://poedit.net/) for translation information. A standard text editor can also be used to edit the existing translation files.
 
 ## Credits
 * aku - Library's books for the English translation of Yume 2kki
